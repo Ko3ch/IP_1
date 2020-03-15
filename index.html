@@ -4,38 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IP_1</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div>        
-        <p><img src="Images/me.jpg" alt="Tom" width="200px" height="200px">Tom Koech</p>
+    <div class="Header">        
+        <img src="Images/me.jpg" alt="Tom" width="250px" height="250px">
+        <p>Tom koech</p>
     </div>    
-    <div>
-       <nav>
-            <ul>
-                <li class="dropdown">
-                <a href="#" class="dropbtn">My Projects</a>
-                <div class="dropdown-content">
-                  <a href="#">Project_1</a>
-                  <a href="#">Project_2</a>
-                </div>
-                </li>
-                <li><a href="#Res">Resume</a></li>
-                <li><a href="#About">About</a></li>
-            </ul>
-        </nav>
-    <div>
-        <h2 id="About" >About</h2>
-        <img src="Images/mug" alt="mug">
-        <p><span>Hi,</span></p>
-        <p></p>
+    <ul class="navbar">
+        <li><a href="#Res">Resume</a></li>
+        <li><a href="#About">About</a></li>
+        <li style="float: right;" class="dropdown">
+        <a href="#" class="dropbtn">My Projects</a>
+            <div class="dropdown-content">
+                <a href="https://github.com/Ko3ch/first-website">Project_1</a>
+            </div>
+        </li>
+    </ul>
+    <div id="About">
+        <h2>About</h2>
+        <img src="Images/mug" alt="mug" width="500px" height="500px">
+        <p>
+            As seen above my name is Tom Koech. I'm a student at <a href="https://moringaschool.com/">Moringa</a>
+            . I'm currently on a software developement class but I plan to be part of a data driven world. I'm learning to learn
+            and that's why I still plan on getting to Data Science, Machine learning, AI and all that the tech world has to offer.
+            Life's changing and I believe I have to be part of the change and if all goes well, influence. 
+        </p>
     </div>
 
-    <div>
-        <h2 id="Res">Resume</h2>
-        <table>
-            <td>
+    <div id="Res">
+        <h2>Resume</h2>
+        <p>Education</p>
+        <table style="width: 100%;">
+            <tr>
+                <th>School/Level</th>
+                <th>Study</th>
+                <th>Timeline</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <th>Moringa School</th>
+                <th>Software Developement</th>
+                <th>9th March - date</th>
+                <th>-</th>
+            </tr>
+            <tr>
+                <th>J.K.U.A.T</th>
+                <th>Bsc. Mathematics and Computer Science</th>
+                <th>September 2017 - *</th>
+                <th>-</th>
+            </tr>
+            <tr>
+                <th>Kabarnet High School</th>
+                <th>K.C.S.E</th>
+                <th>March 2013 - November 2016</th>
+                <th>B+</th>
+            </tr>
+            <tr>
+                <th>Verovian Academy</th>
+                <th>K.C.P.E</th>
+                <th>January 2005 - December 2012</th>
+                <th>391</th>
+            </tr>
+  
 
-            </td>
         </table>
     </div>
 
