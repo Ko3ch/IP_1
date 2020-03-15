@@ -34,3 +34,18 @@ li {
 .navbar a:hover, .dropdown:hover {
     background-color: darkslategrey;
 }
+#About h2 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    color: darkslategrey;
+    text-decoration: underline;
+}
+#About span {
+    font-size: 80px;
+    float:right;
+    position: relative;
+    bottom: 400px;
+    color: darkslategray;
+}
+
