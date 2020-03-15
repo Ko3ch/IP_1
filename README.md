@@ -1,6 +1,6 @@
-# First Website
+# Independent Project
 
-##
+## Author
 - [Ko3ch](https://github.com/Ko3ch)
 
 ## Project Setup instructions
