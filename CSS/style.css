@@ -67,5 +67,23 @@ li {
     font-size: 50px;
     color: darkslategray;
 }
-
-
+#ed {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+table,th, tr, td {
+    border: 4px solid darkslategray;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 30px;
+}
+.Hob li{
+    display: block;
+    padding: 10px;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
