@@ -1,0 +1,15 @@
+.Header {
+    background-color: darkslategrey;
+    border: 5px solid black;
+}
+.Header img {
+    border-radius: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.Header p {
+    float: right;
+    position: relative;
+    right: 400px;
+    font-size: 100px;
+}
