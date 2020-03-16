@@ -87,3 +87,10 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
 }
+footer {
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
